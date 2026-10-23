@@ -59,6 +59,7 @@
     var href = link.href && link.href.trim();
     var className = 'survey-cta__link';
     if (variant === 'primary') className += ' survey-cta__link--primary';
+    if (variant === 'secondary') className += ' survey-cta__link--secondary';
     if (href) {
       return (
         '<a class="' +
@@ -82,10 +83,45 @@
   function fillAboutSurvey(selector, survey) {
     if (!survey) return;
     document.querySelectorAll(selector).forEach(function (el) {
-      var actionLinks = [buildSurveyCtaLink(survey.link, 'primary')].filter(Boolean);
-      var actionsHtml = actionLinks.length
+      var actionLinks = [
+        buildSurveyCtaLink(survey.link, 'primary'),
+        buildSurveyCtaLink(survey.abstractLink, 'secondary')
+      ].filter(Boolean);
+      var hasOptions = survey.options && survey.options.length;
+      var actionsHtml = !hasOptions && actionLinks.length
         ? '<div class="survey-cta__actions">' + actionLinks.join('') + '</div>'
         : '';
+      var optionsHtml =
+        hasOptions
+          ? '<ol class="survey-cta__options">' +
+            survey.options
+              .map(function (option, index) {
+                return (
+                  '<li class="survey-cta__option">' +
+                  '<div class="survey-cta__option-heading">' +
+                  '<strong>' +
+                  escapeHtml(option.title) +
+                  '</strong>' +
+                  (option.badge
+                    ? '<span class="survey-cta__option-badge">' +
+                      escapeHtml(option.badge) +
+                      '</span>'
+                    : '') +
+                  '</div>' +
+                  '<p>' +
+                  escapeHtml(option.text) +
+                  '</p>' +
+                  (actionLinks[index]
+                    ? '<div class="survey-cta__option-action">' +
+                      actionLinks[index] +
+                      '</div>'
+                    : '') +
+                  '</li>'
+                );
+              })
+              .join('') +
+            '</ol>'
+          : '';
       var noteHtml = survey.note
         ? '<p class="survey-cta__note">' + escapeHtml(survey.note) + '</p>'
         : '';
@@ -101,6 +137,7 @@
         '<p class="survey-cta__text">' +
         escapeHtml(survey.text) +
         '</p>' +
+        optionsHtml +
         noteHtml +
         '</div>' +
         '<div class="survey-cta__action">' +

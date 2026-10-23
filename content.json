@@ -65,10 +65,26 @@
     "survey": {
       "eyebrow": "Interested in joining?",
       "title": "Share your perspective before we meet",
-      "text": "Participate in a 20-minute survey that challenges you to reflect on the conceptual and analytical challenges of iPBL. You can also submit an optional extended abstract that (a) takes a perspective on iPBL, related concepts and challenges, (b) connects completed or ongoing work to these challenges, and (c) clarifies the data involved. Your input grounds the group work during the workshop.",
+      "text": "There are two ways to contribute before the workshop:",
+      "options": [
+        {
+          "title": "Complete the pre-workshop survey",
+          "badge": "For all participants",
+          "text": "Spend about 20 minutes reflecting on the conceptual and analytical challenges of iPBL. Your input will provide a shared foundation for the workshop's group activities."
+        },
+        {
+          "title": "Submit an extended abstract",
+          "badge": "Optional",
+          "text": "Share a perspective on iPBL and its challenges, connect completed or ongoing work to those challenges, and clarify the data and analytical approach involved."
+        }
+      ],
       "link": {
         "href": "",
         "label": "Complete the pre-workshop survey"
+      },
+      "abstractLink": {
+        "href": "",
+        "label": "Submit an extended abstract (optional)"
       }
     },
     "description": {
@@ -91,7 +107,7 @@
   },
   "participation": {
     "title": "Participation & format",
-    "intro": "To participate in the half-day session, complete the {{surveyLink}} and, optionally, submit an extended abstract through the survey. Make sure you register for the <a href=\"https://www.solaresearch.org/events/lak/lak27/\" target=\"_blank\" rel=\"noopener noreferrer\">17th International Conference on Learning Analytics &amp; Knowledge (LAK27)</a>. Places are limited (about 25 participants). Two members of the organizing team will review submitted abstracts based on their relevance to iPBL challenges, clarity about the data and analytic approach involved, and potential to connect different learning analytics paradigms. Up to five abstracts will be selected for presentation.",
+    "intro": "To participate in the half-day session, complete the {{surveyLink}} and, optionally, submit an extended abstract. Make sure you register for the <a href=\"https://www.solaresearch.org/events/lak/lak27/\" target=\"_blank\" rel=\"noopener noreferrer\">17th International Conference on Learning Analytics &amp; Knowledge (LAK27)</a>. Places are limited (about 25 participants). Two members of the organizing team will review submitted abstracts based on their relevance to iPBL challenges, clarity about the data and analytic approach involved, and potential to connect different learning analytics paradigms. Up to five abstracts will be selected for presentation.",
     "formatTitle": "Workshop format",
     "formatIntro": "The workshop runs as an interactive half-day event (3.5 hours) and is organized in five parts:",
     "formatSteps": [
