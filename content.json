@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "title": "TELIP | EC-TEL 2026 Workshop",
+    "description": "TELIP — EC-TEL 2026 workshop developing a shared TEL research agenda for interdisciplinary project-based learning in higher education and the workplace."
+  },
+  "header": {
+    "title": "Technology Enhanced Learning for Interdisciplinary Project-based learning (TELIP)",
+    "subtitle": "TEL for Interdisciplinary Project-based Learning in Higher Education and the Workplace:\nA Research Agenda for the Next Decade",
+    "meta": [
+      {
+        "kind": "format",
+        "label": "Format",
+        "text": "Hybrid · Half day"
+      },
+      {
+        "kind": "date",
+        "label": "Date",
+        "text": "15 September 2026"
+      },
+      {
+        "kind": "location",
+        "label": "Location",
+        "text": "Valencia, Spain"
+      },
+      {
+        "kind": "actions",
+        "items": [
+          {
+            "label": "Pre-workshop survey",
+            "href": "https://survey.it-u.at/index.php?r=survey/index&sid=654412&lang=en",
+            "variant": "primary"
+          }
+        ]
+      }
+    ],
+    "navExternal": {
+      "href": "https://ea-tel.eu/ectel2026",
+      "logo": {
+        "src": "img/ectel_logo2.png",
+        "alt": "EC-TEL 2026 — European Conference on Technology Enhanced Learning"
+      }
+    }
+  },
+  "about": {
+    "title": "About the workshop",
+    "faq": [
+      {
+        "question": "What is TELIP?",
+        "icon": "what",
+        "answer": "TELIP (Technology Enhanced Learning for Interdisciplinary Project-based learning) is a hybrid EC-TEL 2026 workshop. It focuses on how technology can support interdisciplinary project-based learning (iPBL) in higher education and at the workplace, and invites participants to share and discuss perspectives on iPBL. "
+      },
+      {
+        "question": "What is the aim of this workshop?",
+        "icon": "aim",
+        "answer": "This workshop aims to develop a shared research agenda for TEL that can effectively support iPBL over the next decade by identifying key challenges related to team development through empirical insights, theoretical perspectives, and practitioner experiences."
+      },
+      {
+        "question": "What happens during the workshop?",
+        "icon": "format",
+        "answer": "The workshop has four parts: presentation of selected cases and TEL innovations; identification of challenges; definition of a research agenda in subgroups; and presentation of outcomes by groups followed by voting in plenum and specification of concrete follow up activities."
+      },
+      {
+        "question": "Who should attend?",
+        "icon": "who",
+        "answer": "Researchers (e.g., CSCL/CSCW, boundary crossing/work, learning analytics, AI) and practitioners (e.g., managers/administrators, teachers/consultants, coaches/facilitators) in the realm of iPBL in higher education and at the workplace."
+      }
+    ],
+    "survey": {
+      "eyebrow": "Interested in joining?",
+      "title": "Share your perspective before we meet",
+      "text": "Participate in a survey to help us establish a shared understanding of iPBL, its characteristics, key theoretical concepts, and the research interests of the EC-TEL community. Your input helps form subgroups and grounds the case-based discussions.",
+      "link": {
+        "href": "https://survey.it-u.at/index.php?r=survey/index&sid=654412&lang=en",
+        "label": "Complete the pre-workshop survey"
+      }
+    },
+    "description": {
+      "title": "Motivation",
+      "paragraphs": [
+        "Interdisciplinary project-based learning (iPBL) in higher education and the workplace places increasing demands on technology-enhanced learning (TEL) to support temporarily formed teams that collaborate across disciplinary and professional boundaries, especially when there is only partial or missing human facilitation. However, existing TEL research remains fragmented, often addressing isolated phases or outcomes of projects while overlooking the longitudinal dynamics of team development, learning, and collaboration. This workshop is motivated by the need to systematically explore the challenges ahead for TEL research in supporting iPBL across contexts, with a particular focus on how interdisciplinary and interprofessional teams evolve over time. By integrating scattered research on project-based teams from both higher education and workplace settings, the workshop aims to connect research communities that currently operate largely in parallel. Bringing together diverse theoretical perspectives and methodological approaches, the workshop seeks to foster mutual inspiration, shared understanding, and future collaboration toward a more coherent and impactful TEL research agenda on iPBL."
+      ]
+    }
+  },
+  "goals": {
+    "title": "Workshop goals",
+    "intro": "This workshop invites participants to share and discuss perspectives on the past and future of iPBL and examine the role of TEL in shaping this landscape. Our goal is to outline a shared research agenda and foster collaboration within the EA-TEL community. We call the EA-TEL community to join forces in leveraging the potential of interdisciplinarity in higher education and at the workplace to cope with the grand challenges society is facing. To prepare for the next decade of TEL research on iPBL, we need to clarify the challenges and opportunities ahead. This means taking into account questions like:",
+    "exampleQuestions": [
+      "How do interdisciplinary teams develop over a project lifetime and what challenges do they face?",
+      "Which phases and states do they go through and what indicates them?",
+      "What are effective patterns of action and reflection and how can we support them with intelligent and emerging technologies?",
+      "What are the desired and undesired outcomes and how do we promote the one whilst avoiding the other?",
+      "How can TEL support assessment, selection, and composition of teams, considering learners' prior knowledge, disciplinary backgrounds, collaboration competencies, and developmental readiness?",
+      "How can TEL approaches be designed to capture and evidence the long‑term impacts on learners' competencies, interdisciplinary collaboration skills, and career trajectories beyond the immediate project context?"
+    ]
+  },
+  "participation": {
+    "title": "Participation & format",
+    "intro": "To participate in the half-day session on 15 September 2026, complete the {{surveyLink}} and share your perspective! For on-site participation, make sure you register for the <a href=\"https://ea-tel.eu/ectel2026\" target=\"_blank\" rel=\"noopener noreferrer\">Twenty-first European Conference on Technology Enhanced Learning (EC-TEL 2026)</a>. Places are limited (up to 30 participants) and will be allocated based on survey responses to ensure diverse perspectives.",
+    "formatTitle": "Workshop format",
+    "formatIntro": "The workshop runs in hybrid form and is organized in four parts:",
+    "formatSteps": [
+      "<strong>Case presentations</strong>: Presentation of selected cases and TEL innovations for iPBL from higher education and workplace contexts.",
+      "<strong>Challenge identification</strong>: Identification of challenges with all participants across application domains.",
+      "<strong>Research agenda formulation</strong>: Definition of a research agenda by formulating research questions and projects in subgroups with online and offline breakout rooms.",
+      "<strong>Synthesis &amp; follow-up</strong>: Presentation of outcomes by groups followed by voting in plenum and specification of concrete follow up activities."
+    ]
+  },
+  "outcomes": {
+    "title": "Expected outcomes",
+    "intro": "By bringing together researchers and practitioners from the EA-TEL community, the workshop seeks to consolidate interdisciplinary perspectives, foster cross-domain learning, and articulate a forward-looking research agenda for technology-enhanced interdisciplinary project-based learning that is grounded in theory, informed by practice, and responsive to emerging societal challenges.",
+    "items": [
+      {
+        "title": "Shared understanding of iPBL",
+        "text": "A community survey establishes shared understanding of iPBL characteristics, key theoretical concepts, and the research interests of the EC-TEL community in project-based learning."
+      },
+      {
+        "title": "Identification of practical challenges",
+        "text": "Identification of practical challenges of iPBL in higher education and at the workplace with the help of case presentations, and clarification of (dis)similarities between both application domains in plenary discussion."
+      },
+      {
+        "title": "Prioritised research agenda",
+        "text": "Outline of a research agenda for understanding and supporting iPBL in subgroups, and decision on the most relevant research questions by voting in the plenum."
+      },
+      {
+        "title": "Lasting collaboration",
+        "text": "Co-authorship of an article outlining the research agenda and formation of consortia for project proposal development and collaborative funding initiatives."
+      }
+    ]
+  },
+  "organisers": {
+    "title": "Organising committee",
+    "affiliationsTitle": "Institutions",
+    "people": [
+      {
+        "name": "Sebastian Dennerlein",
+        "email": "sebastian.dennerlein@it-u.at",
+        "country": "Austria",
+        "affiliation": "IT:U Interdisciplinary Transformation University Austria",
+        "photo": "img/sebastian_dennerlein.jpg"
+      },
+      {
+        "name": "Tobias Ley",
+        "email": "tobias.ley@donau-uni.ac.at",
+        "country": "Austria",
+        "affiliation": "University for Continuing Education Krems",
+        "photo": "img/tobias_ley.jpg"
+      },
+      {
+        "name": "Amber Kornet",
+        "email": "a.kornet@utwente.nl",
+        "country": "Netherlands",
+        "affiliation": "University of Twente",
+        "photo": "img/amber_kornet.png"
+      },
+      {
+        "name": "Michele Magno",
+        "email": "michele.magno@pbl.ee.ethz.ch",
+        "country": "Switzerland",
+        "affiliation": "ETH Zürich",
+        "photo": "img/michele_magno.png"
+      },
+      {
+        "name": "Till Winkler",
+        "email": "till.winkler@it-u.at",
+        "country": "Austria",
+        "affiliation": "IT:U Interdisciplinary Transformation University Austria",
+        "photo": "img/till_winkler.jpg"
+      },
+      {
+        "name": "Victoria Abou Khalil",
+        "email": "victoria.aboukhalil@epfl.ch",
+        "country": "Switzerland",
+        "affiliation": "EPFL Lausanne",
+        "photo": "img/victoria_abou_khalil.jpg"
+      },
+      {
+        "name": "Pantelis Papadopoulos",
+        "email": "p.m.papadopoulos@utwente.nl",
+        "country": "Netherlands",
+        "affiliation": "University of Twente",
+        "photo": "img/pantelsi_papadopoulos.png"
+      },
+      {
+        "name": "Nikola Luburić",
+        "email": "nikola.luburic@uns.ac.rs",
+        "country": "Serbia",
+        "affiliation": "University of Novi Sad",
+        "photo": "img/nikola_luburic.jpeg"
+      },
+      {
+        "name": "Carla Barreiros",
+        "email": "carla.barreiros@it-u.at",
+        "country": "Austria",
+        "affiliation": "IT:U Interdisciplinary Transformation University Austria",
+        "photo": "img/carla_barreiros.jpg"
+      },
+      {
+        "name": "Samantha Smidt",
+        "email": "samantha.smidt@nu.edu.kz",
+        "country": "Kazakhstan",
+        "affiliation": "Nazarbayev University, Astana",
+        "photo": "img/samantha_smidt.png"
+      },
+      {
+        "name": "Alexander Steinmaurer",
+        "email": "alexander.steinmaurer@it-u.at",
+        "country": "Austria",
+        "affiliation": "IT:U Interdisciplinary Transformation University Austria",
+        "photo": "img/alexander_steinmaurer.jpg"
+      },
+      {
+        "name": "Zsolt Lavicza",
+        "email": "zsolt.lavicza@jku.at",
+        "country": "Austria",
+        "affiliation": "Johannes Kepler Universität",
+        "photo": "img/zsolt_lavicza.webp"
+      },
+      {
+        "name": "Tobias Jenert",
+        "email": "tobias.jenert@uni-paderborn.de",
+        "country": "Germany",
+        "affiliation": "Universität Paderborn",
+        "photo": "img/tobias_jenert.png"
+      },
+      {
+        "name": "Christina Nyström",
+        "email": "christina.nystrom@it-u.at",
+        "country": "Austria",
+        "affiliation": "IT:U Interdisciplinary Transformation University Austria",
+        "photo": "img/christina_nystrom.jpg"
+      }
+    ],
+    "affiliations": [
+      {
+        "name": "IT:U Interdisciplinary Transformation University Austria",
+        "src": "img/uni_itu_2.png",
+        "href": "https://it-u.at"
+      },
+      {
+        "name": "University for Continuing Education Krems",
+        "src": "img/uni_krems.png",
+        "href": "https://www.donau-uni.ac.at"
+      },
+      {
+        "name": "University of Twente",
+        "src": "img/uni_twente.avif",
+        "href": "https://www.utwente.nl"
+      },
+      {
+        "name": "ETH Zürich",
+        "src": "img/uni_eth.png",
+        "href": "https://ethz.ch"
+      },
+      {
+        "name": "EPFL Lausanne",
+        "src": "img/uni_epfl.png",
+        "href": "https://www.epfl.ch"
+      },
+      {
+        "name": "University of Novi Sad",
+        "src": "img/uni_novi_sad.jpeg",
+        "href": "https://www.uns.ac.rs"
+      },
+      {
+        "name": "Nazarbayev University",
+        "src": "img/uni_nui.avif",
+        "href": "https://nu.edu.kz"
+      },
+      {
+        "name": "Johannes Kepler Universität",
+        "src": "img/uni_jku.png",
+        "href": "https://www.jku.at"
+      },
+      {
+        "name": "Universität Paderborn",
+        "src": "img/uni_upb.jpg",
+        "href": "https://www.uni-paderborn.de"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "enquiries": "For workshop enquiries, please contact <a href=\"mailto:sebastian.dennerlein@it-u.at\">Sebastian Dennerlein</a> or <a href=\"mailto:till.winkler@it-u.at\">Till Winkler</a>."
+  },
+  "navigation": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Motivation",
+      "href": "#motivation"
+    },
+    {
+      "label": "Workshop goals",
+      "href": "#goals"
+    },
+    {
+      "label": "Participation & format",
+      "href": "#participation"
+    },
+    {
+      "label": "Expected outcomes",
+      "href": "#outcomes"
+    },
+    {
+      "label": "Organising committee",
+      "href": "#organisers"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "footer": {
+    "brand": "TELIP",
+    "tagline": "EC-TEL 2026 workshop · Valencia, Spain · 14 September 2026",
+    "conferenceLogo": {
+      "href": "https://ea-tel.eu/ectel2026",
+      "logo": {
+        "src": "img/ectel_logo2.png",
+        "alt": "EC-TEL 2026 — European Conference on Technology Enhanced Learning"
+      }
+    },
+    "links": [
+      {
+        "label": "EC-TEL 2026",
+        "href": "https://ea-tel.eu/ectel2026"
+      },
+      {
+        "label": "EA-TEL",
+        "href": "https://ea-tel.eu"
+      }
+    ],
+    "copyright": "© 2026 TELIP workshop organisers"
+  }
+}

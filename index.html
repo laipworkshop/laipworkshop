@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>TELIP | EC-TEL 2026 Workshop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="site-nav" aria-label="Page sections">
+    <div class="container nav-inner">
+      <a class="nav-brand" href="#main">TELIP</a>
+      <a
+        class="nav-external nav-conference-logo conference-logo"
+        data-fill="header.navExternal"
+        href="https://ea-tel.eu/ectel2026"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="img/ectel_logo2.png"
+          alt="EC-TEL 2026"
+          width="702"
+          height="316"
+          decoding="async"
+        >
+      </a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav-menu"
+        aria-label="Open menu"
+      >
+        <span class="nav-toggle-icon" aria-hidden="true">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </span>
+      </button>
+      <div class="nav-menu" id="site-nav-menu">
+        <div class="nav-links" data-fill="navigation"></div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title" data-fill="header.title"></h1>
+      <p class="site-subtitle" data-fill="header.subtitle"></p>
+      <ul class="meta-line" aria-label="Workshop logistics" data-fill="header.meta"></ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about" class="section">
+      <div class="container">
+        <h2 data-fill="about.title"></h2>
+
+        <div class="about-faq" data-fill="about.faq"></div>
+
+        <div class="affiliations-block affiliations-block--about">
+          <h2 data-fill="organisers.affiliationsTitle"></h2>
+          <div class="affiliation-logos" data-fill="organisers.affiliations" role="list"></div>
+        </div>
+
+        <div class="about-description" data-fill="about.description"></div>
+
+        <aside class="survey-cta" id="survey" data-fill="about.survey"></aside>
+      </div>
+    </section>
+
+    <section id="goals" class="section">
+      <div class="container">
+        <h2 data-fill="goals.title"></h2>
+        <div class="goals-body">
+          <p class="section-intro" data-fill="goals.intro"></p>
+          <ul class="goals-questions" data-fill="goals.exampleQuestions"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="participation" class="section">
+      <div class="container">
+        <h2 data-fill="participation.title"></h2>
+        <p class="section-intro" data-fill="participation.intro"></p>
+
+        <h3 data-fill="participation.formatTitle"></h3>
+        <p class="panel-intro" data-fill="participation.formatIntro"></p>
+        <ol class="agenda-steps item-list" data-fill="participation.formatSteps"></ol>
+      </div>
+    </section>
+
+    <section id="outcomes" class="section">
+      <div class="container">
+        <h2 data-fill="outcomes.title"></h2>
+        <p class="section-intro" data-fill="outcomes.intro"></p>
+        <div class="outcomes-grid" data-fill="outcomes.items"></div>
+      </div>
+    </section>
+
+    <section id="organisers" class="section">
+      <div class="container">
+        <h2 data-fill="organisers.title"></h2>
+        <div class="organiser-grid" data-fill="organisers.people" role="list"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 data-fill="contact.title"></h2>
+        <p class="section-intro" data-fill="contact.enquiries"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name" data-fill="footer.brand"></p>
+        <a
+          class="footer-conference-logo conference-logo"
+          data-fill="footer.conferenceLogo"
+          href="https://ea-tel.eu/ectel2026"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="img/ectel_logo2.png"
+            alt="EC-TEL 2026"
+            width="702"
+            height="316"
+            loading="lazy"
+            decoding="async"
+          >
+        </a>
+        <p class="footer-tagline" data-fill="footer.tagline"></p>
+      </div>
+      <nav class="footer-nav" aria-label="Page sections">
+        <p class="footer-col-label">On this page</p>
+        <ul data-fill="navigation"></ul>
+      </nav>
+      <div class="footer-related">
+        <p class="footer-col-label">Related</p>
+        <ul class="footer-links" data-fill="footer.links"></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p data-fill="footer.copyright"></p>
+        <a class="footer-top" href="#main">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="content.js"></script>
+</body>
+</html>
