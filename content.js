@@ -223,26 +223,28 @@
         }
         var kind = item.kind || 'default';
         if (kind === 'actions' && item.items && item.items.length) {
+          var actionsHtml = item.items
+            .map(function (action) {
+              var href = action.href && action.href.trim();
+              if (!href || !action.label) return '';
+              var btnClass = 'meta-btn';
+              if (action.variant === 'primary') btnClass += ' meta-btn--primary';
+              return (
+                '<a class="' +
+                btnClass +
+                '" href="' +
+                escapeHtml(href) +
+                '" target="_blank" rel="noopener noreferrer">' +
+                escapeHtml(action.label) +
+                '</a>'
+              );
+            })
+            .join('');
+          if (!actionsHtml) return '';
           return (
             '<li class="meta-item meta-actions" role="presentation">' +
             '<div class="meta-actions__group" role="group" aria-label="Quick links">' +
-            item.items
-              .map(function (action) {
-                var href = action.href && action.href.trim();
-                if (!href || !action.label) return '';
-                var btnClass = 'meta-btn';
-                if (action.variant === 'primary') btnClass += ' meta-btn--primary';
-                return (
-                  '<a class="' +
-                  btnClass +
-                  '" href="' +
-                  escapeHtml(href) +
-                  '" target="_blank" rel="noopener noreferrer">' +
-                  escapeHtml(action.label) +
-                  '</a>'
-                );
-              })
-              .join('') +
+            actionsHtml +
             '</div></li>'
           );
         }

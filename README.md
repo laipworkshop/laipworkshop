@@ -1,9 +1,9 @@
-# TELIP
+# LAIP
 
-Half-day workshop at [ECTEL 2026](https://ea-tel.eu/ectel2026) · Valencia · 15 September 2026
+Interactive half-day workshop at [LAK27](https://www.solaresearch.org/events/lak/lak27/) · Recife, Brazil · Date TBA
 
-**The Next Decade of Interdisciplinary Project-based Learning in Higher Education and at the Workplace: Outlining a TEL-Research Agenda**
+**Learning Analytics for Interdisciplinary Project-based Learning: Bridging Paradigms**
 
-Researchers and practitioners map the next decade of TEL research on interdisciplinary project-based learning (iPBL) through case presentations, structured group work, and collaboration toward an agenda article and project consortia.
+Researchers from across learning analytics communities will connect iPBL learning challenges with relevant data sources, analytic approaches, measures, and opportunities for intervention.
 
 **Contact:** [sebastian.dennerlein@it-u.at](mailto:sebastian.dennerlein@it-u.at) · [till.winkler@it-u.at](mailto:till.winkler@it-u.at)
