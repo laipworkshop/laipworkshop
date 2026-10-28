@@ -7,7 +7,7 @@
   <title>LAIP | LAK27 Workshop</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,13 +16,7 @@
   <nav class="site-nav" aria-label="Page sections">
     <div class="container nav-inner">
       <a class="nav-brand" href="#main" data-fill="footer.brand">LAIP</a>
-      <a
-        class="nav-external nav-conference-logo conference-logo"
-        data-fill="header.navExternal"
-        href="https://www.solaresearch.org/events/lak/lak27/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >LAK27</a>
+      <div class="nav-logos" data-fill="header.navExternal"></div>
       <button
         class="nav-toggle"
         type="button"
@@ -57,11 +51,6 @@
 
         <div class="about-faq" data-fill="about.faq"></div>
 
-        <div class="affiliations-block affiliations-block--about">
-          <h2 data-fill="organisers.affiliationsTitle"></h2>
-          <div class="affiliation-logos" data-fill="organisers.affiliations" role="list"></div>
-        </div>
-
         <div class="about-description" data-fill="about.description"></div>
 
         <aside class="survey-cta" id="survey" data-fill="about.survey"></aside>
@@ -73,7 +62,7 @@
         <h2 data-fill="goals.title"></h2>
         <div class="goals-body">
           <p class="section-intro" data-fill="goals.intro"></p>
-          <ul class="goals-questions" data-fill="goals.exampleQuestions"></ul>
+          <ol class="goals-questions" data-fill="goals.exampleQuestions"></ol>
         </div>
       </div>
     </section>
@@ -101,6 +90,11 @@
       <div class="container">
         <h2 data-fill="organisers.title"></h2>
         <div class="organiser-grid" data-fill="organisers.people" role="list"></div>
+
+        <div class="affiliations-block">
+          <h2 data-fill="organisers.affiliationsTitle"></h2>
+          <div class="affiliation-logos" data-fill="organisers.affiliations" role="list"></div>
+        </div>
       </div>
     </section>
 

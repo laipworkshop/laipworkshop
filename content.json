@@ -5,17 +5,17 @@
   },
   "header": {
     "title": "Learning Analytics for Interdisciplinary Project-based Learning (LAIP)",
-    "subtitle": "Learning Analytics for Interdisciplinary Project-based Learning:\nBridging Paradigms",
+    "subtitle": "Bridging Paradigms",
     "meta": [
       {
         "kind": "format",
         "label": "Format",
-        "text": "On-site · Half day"
+        "text": "On-site / Half-day interactive workshop"
       },
       {
         "kind": "date",
         "label": "Date",
-        "text": "TBA (LAK27 workshop days)"
+        "text": "8 or 9 March 2027 (exact day TBA)"
       },
       {
         "kind": "location",
@@ -33,10 +33,16 @@
         ]
       }
     ],
-    "navExternal": {
-      "href": "https://www.solaresearch.org/events/lak/lak27/",
-      "label": "LAK27"
-    }
+    "navExternal": [
+      {
+        "href": "https://www.solaresearch.org/events/lak/lak27/",
+        "label": "LAK27",
+        "logo": {
+          "src": "img/logo-lak17.png",
+          "alt": "LAK27, the 17th International Learning Analytics and Knowledge Conference"
+        }
+      }
+    ]
   },
   "about": {
     "title": "About the workshop",
@@ -65,7 +71,7 @@
     "survey": {
       "eyebrow": "Interested in joining?",
       "title": "Share your perspective before we meet",
-      "text": "There are two ways to contribute before the workshop:",
+      "text": "Register to the <a href=\"https://www.solaresearch.org/events/lak/lak27/\" target=\"_blank\" rel=\"noopener noreferrer\">17th International Conference on Learning Analytics &amp; Knowledge (LAK27)</a> and contribute before the workshop:",
       "options": [
         {
           "title": "Complete the pre-workshop survey",
@@ -80,18 +86,75 @@
       ],
       "link": {
         "href": "",
-        "label": "Complete the pre-workshop survey"
+        "label": "Coming soon"
       },
       "abstractLink": {
         "href": "",
-        "label": "Submit an extended abstract (optional)"
+        "label": "Coming soon"
       }
     },
     "description": {
       "title": "Motivation",
       "paragraphs": [
-        "Interdisciplinary project-based learning (iPBL), in which students from multiple disciplines work together on extended projects, poses a distinct challenge for learning analytics (LA). Learning unfolds over weeks across changing project phases, individual and team processes, and fragmented multimodal traces, including digital traces, conversations, and evolving project artifacts. While existing LA approaches address parts of this challenge, they seldom integrate longitudinal digital traces, team interactions, and project artifacts to track learning across phases and inform timely support for students, teams, and educators.",
-        "One possible reason for this gap is that iPBL sits at the intersection of learning analytics paradigms. An existentialist perspective can help capture the situated and participant-dependent nature of learning in open-ended interdisciplinary projects, while an ontological perspective can help connect individual activity, team interaction, project phases, and outcomes as parts of an evolving system. This workshop bridges these paradigms by bringing together learning analytics perspectives that study rich, situated interaction with approaches that trace learning longitudinally across project phases and digital environments. By connecting analytics to actionable support for learners, teams, and educators, the workshop aligns with LAK27's focus on helping individuals and communities thrive."
+        "Interdisciplinary project-based learning (iPBL) is a teaching approach gathering increasing interest because of its potential to foster 21st-century skills, such as problem-solving, collaboration, and critical thinking, while supporting the development of domain-specific competencies required by the future workforce (Warr & West, 2020; Nguyen, 2025). iPBL teams bring people from different disciplines to integrate their knowledge and methods to address a shared problem. The learning processes in iPBL are complex, unfolding over time across phases, each demanding specific cognitive and meta-cognitive activities and skills while also posing inherent phase-related challenges (Kolmos, 2026; Kornet et al., 2026). iPBL contexts produce rich longitudinal but often fragmented data across modalities, tools, and over time, including digital traces, conversations, and evolving project artifacts. Furthermore, learning happens at different levels, integrating individual and social learning, demanding self-, co- and social regulation, and requiring both formative and summative assessment (Kim & Lim, 2018; Kolmos, 2026).",
+        "Learning Analytics (LA) has the potential to address these challenges, for instance by supporting guidance of student learning, the implementation and assessment of iPBL, and its scaling. While existing Learning Analytics (LA) approaches address parts of this challenge, they seldom integrate longitudinal digital traces, team interactions, and project artifacts to track learning across phases and inform timely support for students, teams, and educators. One possible reason for this gap is that iPBL sits at the intersection of LA paradigms described by Baker et al. (2021), whose integration is especially important for studying iPBL. We argue that two of the paradigms are particularly relevant to the complex learning processes involved. An existentialist perspective can help capture the situated and participant-dependent nature of learning in open-ended interdisciplinary projects, while an ontological perspective can help connect individual activity, team interaction, project phases, and outcomes as parts of an evolving system.",
+        "This half-day interactive workshop bridges these paradigms by bringing together learning analytics perspectives that study rich, situated interaction with approaches that trace learning longitudinally across project phases and digital environments. Building on the outcomes of a workshop at a conference on Technology-Enhanced Learning, participants will examine an initial set of iPBL challenges and data sources, then work in small groups to map analytic approaches and identify methodological gaps. By connecting analytics to actionable support for learners, teams, and educators, the workshop aligns with LAK27's focus on helping individuals and communities thrive."
+      ],
+      "referencesTitle": "References",
+      "references": [
+        {
+          "authors": "Baker, R. S., Gašević, D., & Karumbaiah, S.",
+          "year": "2021",
+          "title": "Four paradigms in learning analytics: Why paradigm convergence matters.",
+          "venue": "Computers and Education: Artificial Intelligence",
+          "volume": "2",
+          "pages": "100021"
+        },
+        {
+          "authors": "Kim, D., & Lim, C.",
+          "year": "2018",
+          "title": "Promoting socially shared metacognitive regulation in collaborative project-based learning: A framework for the design of structured guidance.",
+          "venue": "Teaching in Higher Education",
+          "volume": "23",
+          "issue": "2",
+          "pages": "194–211",
+          "doi": "https://doi.org/10.1080/13562517.2017.1379484"
+        },
+        {
+          "type": "book",
+          "authors": "Kolmos, A.",
+          "year": "2026",
+          "title": "Engineering Education for Interdisciplinary Futures: Problem- and Project-Based Learning for a Chaotic World",
+          "edition": "(Vol. 2)",
+          "publisher": "Springer Nature Switzerland"
+        },
+        {
+          "authors": "Kornet, A., Dennerlein, S. M., Endedijk, M. D., & Schipper, T. M.",
+          "year": "2026",
+          "title": "How the goal changes the game: Team learning processes across team-development phases.",
+          "venue": "Learning in Context",
+          "volume": "3",
+          "pages": "100022",
+          "doi": "https://doi.org/10.1016/j.lecon.2026.100022"
+        },
+        {
+          "authors": "Nguyen, D.",
+          "year": "2025",
+          "title": "Project-Based Learning (PJBL) as an Experiential Pedagogical Methodology in Interdisciplinary Education: A Review of the Literature.",
+          "venue": "International Journal of Education in Mathematics, Science and Technology",
+          "volume": "13",
+          "issue": "4",
+          "pages": "1016–1039"
+        },
+        {
+          "authors": "Warr, M., & West, R. E.",
+          "year": "2020",
+          "title": "Bridging Academic Disciplines with Interdisciplinary Project-based Learning: Challenges and Opportunities.",
+          "venue": "Interdisciplinary Journal of Problem-Based Learning",
+          "volume": "14",
+          "issue": "1",
+          "doi": "https://doi.org/10.14434/ijpbl.v14i1.28590"
+        }
       ]
     }
   },
@@ -107,7 +170,7 @@
   },
   "participation": {
     "title": "Participation & format",
-    "intro": "To participate in the half-day session, complete the {{surveyLink}} and, optionally, submit an extended abstract. Make sure you register for the <a href=\"https://www.solaresearch.org/events/lak/lak27/\" target=\"_blank\" rel=\"noopener noreferrer\">17th International Conference on Learning Analytics &amp; Knowledge (LAK27)</a>. Places are limited (about 25 participants). Two members of the organizing team will review submitted abstracts based on their relevance to iPBL challenges, clarity about the data and analytic approach involved, and potential to connect different learning analytics paradigms. Up to five abstracts will be selected for presentation.",
+    "intro": "To participate in the half-day session, complete the {{surveyLink}} and, optionally, submit an extended abstract. Make sure you register for the <a href=\"https://www.solaresearch.org/events/lak/lak27/\" target=\"_blank\" rel=\"noopener noreferrer\">17th International Conference on Learning Analytics &amp; Knowledge (LAK27)</a>. Places are limited (about 25 participants). The organising team will review submitted abstracts based on their relevance to iPBL challenges, clarity about the data and analytic approach involved, and potential to connect different learning analytics paradigms. Up to five abstracts will be selected for presentation.",
     "formatTitle": "Workshop format",
     "formatIntro": "The workshop runs as an interactive half-day event (3.5 hours) and is organized in five parts:",
     "formatSteps": [
@@ -163,7 +226,7 @@
         "email": "marjorie.dacruz@it-u.at",
         "country": "Austria",
         "affiliation": "IT:U Interdisciplinary Transformation University Austria",
-        "photo": "img/marjorie_cristina_da_cruz.jpeg"
+        "photo": "img/marjorie_cristina_da_cruz.jpg"
       },
       {
         "name": "Daniel Spikol",
@@ -173,11 +236,11 @@
         "photo": "img/daniel.jpg"
       },
       {
-        "name": "Rana Coskun",
-        "email": "rana.coskun@it-u.at",
-        "country": "Austria",
-        "affiliation": "IT:U Interdisciplinary Transformation University Austria",
-        "photo": "img/rana_coskun.jpg"
+        "name": "Conrad Borchers",
+        "email": "c.borchers@vanderbilt.edu",
+        "country": "United States",
+        "affiliation": "Vanderbilt University",
+        "photo": "img/conrad_borchers.jpg"
       },
       {
         "name": "Xiaoshan Huang",
@@ -201,11 +264,11 @@
         "photo": "img/tobias_ley.jpg"
       },
       {
-        "name": "Conrad Borchers",
-        "email": "cborcher@cs.cmu.edu",
-        "country": "United States",
-        "affiliation": "Vanderbilt University",
-        "photo": "img/conrad_borchers.jpg"
+        "name": "Rana Coskun",
+        "email": "rana.coskun@it-u.at",
+        "country": "Austria",
+        "affiliation": "IT:U Interdisciplinary Transformation University Austria",
+        "photo": "img/rana_coskun.jpg"
       }
     ],
     "affiliations": [
@@ -282,7 +345,7 @@
   ],
   "footer": {
     "brand": "LAIP",
-    "tagline": "LAK27 workshop · Recife, Brazil · Date TBA",
+    "tagline": "LAK27 workshop · Recife, Brazil · 8 or 9 March 2027",
     "conferenceLogo": {
       "href": "https://www.solaresearch.org/events/lak/lak27/",
       "label": "LAK27"
@@ -297,6 +360,6 @@
         "href": "https://www.solaresearch.org"
       }
     ],
-    "copyright": "© 2027 LAIP workshop organisers"
+    "copyright": "© 2026 LAIP workshop organisers"
   }
 }

@@ -135,7 +135,7 @@
         escapeHtml(survey.title) +
         '</h3>' +
         '<p class="survey-cta__text">' +
-        escapeHtml(survey.text) +
+        (survey.text || '') +
         '</p>' +
         optionsHtml +
         noteHtml +
@@ -146,9 +146,36 @@
     });
   }
 
+  function renderReference(item) {
+    var html =
+      escapeHtml(item.authors) + ' (' + escapeHtml(item.year) + '). ';
+    if (item.type === 'book') {
+      html += '<em>' + escapeHtml(item.title) + '</em>';
+      if (item.edition) html += ' ' + escapeHtml(item.edition);
+      html += '. ' + escapeHtml(item.publisher) + '.';
+    } else {
+      html += escapeHtml(item.title) + ' <em>' + escapeHtml(item.venue);
+      if (item.volume) html += ', ' + escapeHtml(item.volume);
+      html += '</em>';
+      if (item.issue) html += '(' + escapeHtml(item.issue) + ')';
+      if (item.pages) html += ', ' + escapeHtml(item.pages);
+      html += '.';
+    }
+    if (item.doi) {
+      html +=
+        ' <a href="' +
+        escapeHtml(item.doi) +
+        '" target="_blank" rel="noopener noreferrer">' +
+        escapeHtml(item.doi) +
+        '</a>';
+    }
+    return html;
+  }
+
   function fillAboutDescription(selector, description) {
     if (!description) return;
     var paragraphs = description.paragraphs || [];
+    var references = description.references || [];
     document.querySelectorAll(selector).forEach(function (el) {
       var titleHtml = description.title
         ? '<h2 id="motivation">' + escapeHtml(description.title) + '</h2>'
@@ -158,7 +185,22 @@
           return '<p>' + escapeHtml(text) + '</p>';
         })
         .join('');
-      el.innerHTML = titleHtml + bodyHtml;
+      var referencesHtml = '';
+      if (references.length) {
+        referencesHtml =
+          '<div class="references">' +
+          (description.referencesTitle
+            ? '<h3>' + escapeHtml(description.referencesTitle) + '</h3>'
+            : '') +
+          '<ul class="references__list">' +
+          references
+            .map(function (item) {
+              return '<li>' + renderReference(item) + '</li>';
+            })
+            .join('') +
+          '</ul></div>';
+      }
+      el.innerHTML = titleHtml + bodyHtml + referencesHtml;
     });
   }
 
@@ -176,8 +218,14 @@
     var list = document.querySelector(selector);
     if (!list || !items) return;
     list.innerHTML = items
-      .map(function (text) {
-        return '<li><span class="item-list__badge" aria-hidden="true">?</span>' + escapeHtml(text) + '</li>';
+      .map(function (text, index) {
+        return (
+          '<li><span class="item-list__badge" aria-hidden="true">' +
+          (index + 1) +
+          '</span>' +
+          escapeHtml(text) +
+          '</li>'
+        );
       })
       .join('');
   }
@@ -314,8 +362,33 @@
     }
   }
 
-  function fillNavExternal(link) {
-    fillLogoLink('[data-fill="header.navExternal"]', link);
+  function fillNavExternal(links) {
+    var el = document.querySelector('[data-fill="header.navExternal"]');
+    if (!el || !links) return;
+    var items = Array.isArray(links) ? links : [links];
+    el.innerHTML = items
+      .map(function (link) {
+        if (!link || !link.href) return '';
+        var logoClass = 'nav-conference-logo conference-logo';
+        var inner =
+          link.logo && link.logo.src
+            ? '<img src="' +
+              escapeHtml(link.logo.src) +
+              '" alt="' +
+              escapeHtml(link.logo.alt || link.label || '') +
+              '">'
+            : escapeHtml(link.label || '');
+        return (
+          '<a class="' +
+          logoClass +
+          '" href="' +
+          escapeHtml(link.href) +
+          '" target="_blank" rel="noopener noreferrer">' +
+          inner +
+          '</a>'
+        );
+      })
+      .join('');
   }
 
   function fillOrganisers(people) {
